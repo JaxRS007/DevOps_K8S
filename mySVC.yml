@@ -4,13 +4,13 @@ metadata:
   name: myjavaapp-svc
   labels:
     app: myjavaapp
-    version: 2.6.4
+    version: 2.6.5
 spec:
   type: NodePort
   ports:
   - port: 8080
-    nodePort: 30002
+    nodePort: 30001
     protocol: TCP
   selector:
     app: myjavaapp
-    version: 2.6.4  
+    version: 2.6.5  
